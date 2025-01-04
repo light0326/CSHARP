@@ -29,3 +29,14 @@ C:\Users\Administrator\Desktop\finalgg\WindowsFormsApp1\WindowsFormsApp1\obj\Deb
 C:\Users\Administrator\Desktop\finalgg\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.exe
 C:\Users\Administrator\Desktop\finalgg\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.pdb
 C:\Users\Administrator\Desktop\finalgg\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\CSHARP\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\CSHARP\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Administrator\Desktop\CSHARP\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\Administrator\Desktop\CSHARP\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Administrator\Desktop\CSHARP\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\CSHARP\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CSHARP\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.exe.config
+C:\Users\Administrator\Desktop\CSHARP\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Administrator\Desktop\CSHARP\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Administrator\Desktop\CSHARP\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.exe
+C:\Users\Administrator\Desktop\CSHARP\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.pdb

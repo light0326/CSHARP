@@ -155,7 +155,7 @@ namespace WindowsFormsApp1
         {
             if (udp != null)
             {
-                sndmsg(serverip, "logout:" + username);
+                sndmsg(serverip, "logout:" + username );
                 timer1.Enabled = false;
                 udp.Close();
                 udp = null;

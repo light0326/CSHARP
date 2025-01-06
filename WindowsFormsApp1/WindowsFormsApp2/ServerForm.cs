@@ -162,7 +162,7 @@ namespace WindowsFormsApp2
 
                     case "logout":
                         username = token[1];
-                        MessageBox.Show(username);
+                        MessageBox.Show($"{username} 成功登出");
                         SqlCommand cmd2 = new SqlCommand("update tb1 set IP = NULL where Id=@id ", conn);
                         cmd2.Parameters.Add(new SqlParameter("@id", username));
                         if (conn.State == ConnectionState.Closed)

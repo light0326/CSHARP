@@ -22,7 +22,8 @@ namespace WindowsFormsApp1
         }
         static UdpClient udp;
         static IPEndPoint sep;
-        static string serverip = "172.18.11.200";
+        //static string serverip = "172.18.11.200";
+        static string serverip = "172.18.243.135";
         IPEndPoint rep = new IPEndPoint(IPAddress.Parse(serverip), 0);
         Form2[] friends = new Form2[10];
         public static string username = "";
@@ -111,7 +112,7 @@ namespace WindowsFormsApp1
 
                         for (int i = 0; i < friends.Length; i++)
                         {
-                            if (friendname == (string)friends[i].Text)
+                            if (friendname.Replace(" ", string.Empty) == (string)friends[i].Text.Replace(" ", string.Empty))
                             {
                                 talking = true;
                                 friends[i].textBox2.Text += msg + Environment.NewLine + Environment.NewLine;
@@ -148,14 +149,14 @@ namespace WindowsFormsApp1
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (udp != null)
-                sndmsg(serverip, "logout:" + username);
+                sndmsg(serverip, "logout:" + username );
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             if (udp != null)
             {
-                sndmsg(serverip, "logout:" + username );
+                sndmsg(serverip, "logout:" + username + ":成功登出");
                 timer1.Enabled = false;
                 udp.Close();
                 udp = null;
